@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ro5ti5lav/duel-game/static/css/main.b93aac3a.css",
+    "main.js": "/ro5ti5lav/duel-game/static/js/main.23c7856b.js",
+    "index.html": "/ro5ti5lav/duel-game/index.html",
+    "main.b93aac3a.css.map": "/ro5ti5lav/duel-game/static/css/main.b93aac3a.css.map",
+    "main.23c7856b.js.map": "/ro5ti5lav/duel-game/static/js/main.23c7856b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b93aac3a.css",
+    "static/js/main.23c7856b.js"
+  ]
+}
