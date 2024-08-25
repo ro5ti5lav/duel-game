@@ -1,0 +1,58 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-direction: column;
+
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px calc(10rem - 10px);
+}
+
+canvas {
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Для планшетов и мобильных устройств с шириной экрана до 768px */
+@media (max-width: 768px) {
+    .App {
+        flex-direction: column;
+    }
+
+    .controls {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+        align-items: center;
+        gap: 10px calc(10rem - 10px);
+    }
+
+    .controls>div {
+        margin-bottom: 20px;
+        width: 90%;
+        /* Важное изменение */
+        max-width: 300px;
+        /* Ограничение ширины */
+        text-align: left;
+    }
+
+    canvas {
+        width: 100%;
+        height: auto;
+    }
+}
